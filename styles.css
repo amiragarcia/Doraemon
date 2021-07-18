@@ -401,3 +401,34 @@ footer .condiciones{
         order: 3;
     }
 }
+
+@media screen and (min-width:750px){
+    nav{
+        height: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px 30px;
+    }
+    nav img{
+        width: 80px;
+        height: 50px;
+    }
+    nav .menu{
+        width: 70%;
+        height: unset;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .menu a{
+        width: unset;
+        background-color: yellow;
+        margin: 0px;
+        font-size: 13px;
+        font-weight: 100;
+        display: block;
+        flex: unset;
+        padding: 10px;
+    }
+
+}
+
