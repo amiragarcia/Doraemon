@@ -374,4 +374,36 @@ footer .condiciones{
 }
 
 
-@media screen and (max-width:)
+@media screen and (min-width: 600px){
+    nav{
+        flex-direction: row-reverse;
+        padding: 0px;
+    }
+    nav img{
+        width: 65%;
+        height: 400px;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+    nav .menu{
+        margin-top: 0px;
+        width: 35%;
+    }
+
+    iframe{
+        height: 300px;
+    }
+
+    footer .condiciones{
+        flex-direction: row;
+    }
+    .condiciones a:nth-child(1){
+        order: 2;
+    }
+    .condiciones a:nth-child(2){
+        order: 1;
+    }
+    .condiciones a:nth-child(3){
+        order: 3;
+    }
+}
